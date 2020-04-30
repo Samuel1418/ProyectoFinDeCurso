@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="813" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="513" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Ingredientes:&#xa;&#xb7;360gr de Tofu&#x9;&#x9;&#xb7;1 Br&#xf3;coli&#x9;&#x9;&#xb7;8 Champi&#xf1;ones&#xa;&#xb7;Pimiento rojo&#x9;&#x9;&#xb7;1 Cebolla&#x9;&#x9;&#xb7;2 ajos&#xa;&#xb7;300gr de queso rayado&#xa;&#xa;N&#xfa;mero de comensales: 4&#xa;&#xa;Preparaci&#xf3;n:&#xa;&#xa;1.- Envuelve el tofu con papel de cocina o con un trapo de cocina limpio y ponle encima algo &#xa;pesado (un libro, una botella de agua...). Dej&#xe1;ndolo as&#xed;, durante unos 15 minutos, conseguir&#xe1;s &#xa;que suelte parte del l&#xed;quido.&#xa;&#xa;2.- Corta el tofu en dados y a&#xf1;&#xe1;dele 2 cucharadas de aceite, sal, pimienta negra, ajo en polvo &#xa;y curry. Remueve bien para que se impregne y d&#xe9;jalo en un bol mientras preparas el resto de &#xa;ingredientes.&#xa;&#xa;3.- Corta el br&#xf3;coli en ramilletes. Col&#xf3;calo en un plato e introd&#xfa;celo en el microondas a m&#xe1;xima &#xa;potencia durante 8 minutos. Comprueba que est&#xe1; cocinado y a&#xf1;&#xe1;dele un poco de sal.&#xa;&#xa;4.- Mientras tanto, pon agua en una cazuela y, cuando empiece a hervir, a&#xf1;ade el arroz y cu&#xe9;celo &#xa;durante unos 20 minutos.&#xa;&#xa;5.- Trocea el ajo, la cebolla y el pimiento rojo y salte&#xe1;los en una sart&#xe9;n, con una cucharada de &#xa;aceite, durante 7- 8 minutos. Transcurrido este tiempo, incorpora los champi&#xf1;ones laminados y &#xa;el tofu marinado. Retira y col&#xf3;calo en un plato junto con el br&#xf3;coli y el arroz luego mientras esta &#xa;caliente a&#xf1;adir el queso para que se funda."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volver"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
