@@ -15,8 +15,8 @@ public class RecetaCocina {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Interfaz obx= new Interfaz();
-        obx.setVisible(true);
+        Interfaz obx= new Interfaz(); //Creacion del objeto
+        obx.setVisible(true); //Iniciar la interfaz principal
     }
     
 }

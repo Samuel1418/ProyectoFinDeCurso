@@ -126,23 +126,22 @@ public class Interfaz extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
-        INtPlatosCarnicos obx =new INtPlatosCarnicos();
-        this.setVisible(false);
-        obx.setVisible(true);
+        INtPlatosCarnicos obx =new INtPlatosCarnicos(); //Creación del objeto
+        this.setVisible(false); //Hago la interfaz actual invisible
+        obx.setVisible(true); //Abre la intefaz seleccionada
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        IntPlatosVegetarianos obx= new IntPlatosVegetarianos();
-        obx.setVisible(true);
-        this.setVisible(false);
+        IntPlatosVegetarianos obx= new IntPlatosVegetarianos();//Creación del objeto
+        obx.setVisible(true); //Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        IntPlatosVeganos obx= new IntPlatosVeganos();
-        obx.setVisible(true);
-        this.setVisible(false);
+        IntPlatosVeganos obx= new IntPlatosVeganos();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

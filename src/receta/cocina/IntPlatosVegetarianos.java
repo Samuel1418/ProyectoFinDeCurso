@@ -87,9 +87,9 @@ public class IntPlatosVegetarianos extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        IntTofu obx= new IntTofu();
-        obx.setVisible(true);
-        this.setVisible(false);
+        IntTofu obx= new IntTofu();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

@@ -113,21 +113,21 @@ public class IntPescados extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       IntMerluza obx= new IntMerluza();
-       obx.setVisible(true);
-       this.setVisible(false);
+       IntMerluza obx= new IntMerluza();//Creación del objeto
+       obx.setVisible(true);//Abre la intefaz seleccionada
+       this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       IntLomo obx=new IntLomo();
-       obx.setVisible(true);
-       this.setVisible(false);
+       IntLomo obx=new IntLomo();//Creación del objeto
+       obx.setVisible(true);//Abre la intefaz seleccionada
+       this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        INtPlatosCarnicos obx= new INtPlatosCarnicos();
-        obx.setVisible(true);
-        this.setVisible(false);
+        INtPlatosCarnicos obx= new INtPlatosCarnicos();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

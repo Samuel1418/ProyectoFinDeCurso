@@ -77,15 +77,15 @@ public class IntPlatosVeganos extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-       Interfaz obx= new Interfaz();
-       obx.setVisible(true);
-       this.setVisible(false);
+       Interfaz obx= new Interfaz();//Creación del objeto
+       obx.setVisible(true);//Abre la intefaz seleccionada
+       this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        IntTortilla obx = new IntTortilla();
-        obx.setVisible(true);
-        this.setVisible(false);
+        IntTortilla obx = new IntTortilla();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

@@ -90,15 +90,15 @@ public class IntCarnes extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Chuleta obx = new Chuleta();
-        obx.setVisible(true);
-        this.setVisible(false);
+        Chuleta obx = new Chuleta();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        INtPlatosCarnicos obx= new INtPlatosCarnicos();
-        obx.setVisible(true);
-        this.setVisible(false);
+        INtPlatosCarnicos obx= new INtPlatosCarnicos();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

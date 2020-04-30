@@ -124,20 +124,20 @@ public class INtPlatosCarnicos extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         IntPescados obx= new IntPescados();
-        obx.setVisible(true);
-        this.setVisible(false);
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       IntCarnes obx= new IntCarnes();
-       obx.setVisible(true);
-       this.setVisible(false);
+       IntCarnes obx= new IntCarnes();//Creación del objeto
+       obx.setVisible(true);//Abre la intefaz seleccionada
+       this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Interfaz obx= new Interfaz();
-        obx.setVisible(true);
-        this.setVisible(false);
+        Interfaz obx= new Interfaz();//Creación del objeto
+        obx.setVisible(true);//Abre la intefaz seleccionada
+        this.setVisible(false);//Hago la interfaz actual invisible
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
